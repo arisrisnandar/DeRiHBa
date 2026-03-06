@@ -7,3 +7,12 @@ Fitur-fitur yang dikembangkan dan/atau dimodifikasi:
 1.	Perangkat lunak DeRiHBa dirancang dan diaplikasikan dengan menggunakan algoritma berbasis pembelajaran-transfer yang menggabungkan 3 level model ResNet50 pada saat pra-pelatihan dengan resolusi yang berbeda untuk setiap pelatihan pada klasifikasi kematangan pisang tanduk.
 2.	Pembelajaran mesin dengan model Faster R-CNN yang sudah disesuaikan dengan kategori kematangan pisang tanduk dengan algoritma pembelajaran-transfer pada dataset pisang tanduk yang berisi 7 (tujuh) kategori kematangan, di antaranya: banyak hijau (kategori 1/mentah), hijau agak kekuningan (kategori 2/mentah), hijau mendominasi kuning (kategori 3/mentah), banyak kuning (kategori 4/matang), kuning penuh (kategori 6/matang), dan kuning berbintik coklat (kategori 7/matang).
 3.	DeRiHBa memiliki hasil yang lebih unggul dalam perhitungan kompleksitas komputasi dibandingkan dengan metodologi lainnya.
+
+# De RiBa - Detector of Riped Banana 🍌
+
+Aplikasi deteksi tingkat kematangan pisang menggunakan OpenCV dan Streamlit.
+
+## Cara Penggunaan
+1. Upload gambar atau ambil foto dengan kamera
+2. Klik tombol deteksi
+3. Lihat hasil analisis
